@@ -1,0 +1,364 @@
+/*====== Root ======*/
+
+:root {
+     --md-white: #ffffff;
+     --md-active: #ff6347;
+}
+
+/*====== Default ======*/
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: 'Montserrat', sans-serif;
+}
+
+main {
+     width: 100%;
+     overflow: hidden;
+}
+
+span {
+     font-weight: bold;
+}
+
+cite {
+     font-size: 1.25rem;
+     font-weight: 400;
+     margin: 1rem 0;
+     color: var(--md-white);
+}
+
+.section {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+}
+
+.d-p {
+     color: var(--md-white);
+     font-size: 1.312rem;
+     font-weight: 400;
+     text-align: right;
+}
+
+.d-1, .d-2 {
+     width: 100%;
+}
+
+/*====== container ======*/
+
+.container-small, .container {
+     width: calc(100% - 5.12rem);
+     margin-left: 2.57rem;
+     margin-right: 2.57rem;
+/*      border: solid red 1px; */
+}
+
+.container-small {
+     height: 15%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.container {
+     height: 70%;
+}
+
+/*====== Section 01  #2f3142 ======*/
+
+#section-01 {
+     background-image: url(../img/Photo-01-Mike-C-Valdivia-Unsplash.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+#section-01 .container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+#section-01 .container header h1 {
+     font-size: 9.5rem;
+     color: var(--md-white);
+     font-weight: 700;
+}
+
+/*====== Section-02 ======*/
+
+#section-02 {
+     background-image: url(../img/Photo-02-Andre-Benz.jpg.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+#section-02 .container h1 {
+     font-size: 2.25rem;
+     font-weight: 400;
+     margin: 1rem 0;
+     color: var(--md-white);
+}
+
+/*====== Section-03 ======*/
+
+#section-03 {
+     background-image: url(../img/Photo-03-Jeffrey-Blum.jpg.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+#section-03 .container {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+}
+
+#section-03 .container h1 {
+     font-size: 2.25rem;
+     font-weight: 400;
+     margin: 1rem 0;
+     color: var(--md-white);
+}
+
+/*====== Section-04 ======*/
+
+#section-04 {
+     background-image: url(../img/Photo-04-Anubhav-Saxena.jpg.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+#section-04 .container {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+}
+
+#section-04 .container h1 {
+     font-size: 2.25rem;
+     font-weight: 400;
+     margin: 1rem 0;
+     color: var(--md-white);
+}
+
+/*====== Section-05 #272532 ======*/
+
+
+#section-05 {
+     background-image: url(../img/Photo-05-Nik-Shuliahin.jpg.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+#section-05 .container {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+#section-05 .container h1, #section-05 .container .d-1  {
+     font-size: 2.25rem;
+     font-weight: 500;
+     margin: 1rem 0;
+     color: var(--md-white);
+}
+
+/*====== Section-06 ======*/
+
+#section-06 {
+     background-image: url(../img/Photo-06-Emiliano-Bar.jpg.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+}
+
+/*====== Section-07 ======*/
+
+#section-07 {
+     background-image: url(../img/Photo-07-Jermaine.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+#section-07 .container {
+     text-align: right;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+#section-07 .container h1 {
+     font-size: 2.5rem;
+     font-weight: 400;
+     margin: 1rem 0;
+     color: var(--md-white);
+}
+
+/*====== Section-08 ======*/
+
+
+#section-08 {
+     background-image: url(../img/Photo-08-Ferdinand-Unsplash.png);
+     background-size: cover;
+     background-position: right center;
+     background-repeat: no-repeat;
+}
+
+#section-08 .container {
+     text-align: left;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+#section-08 .container h1 {
+     font-size: 2rem;
+     font-weight: 500;
+     margin: 1rem 0;
+     color: var(--md-white);
+}
+
+/*====== Section-09 ======*/
+
+#section-09 {
+     background-image: url(../img/Photo-09-Colton-Unsplash.png);
+     background-size: cover;
+     background-position: right center;
+     background-repeat: no-repeat;
+}
+
+#section-09 .container {
+     text-align: right;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+}
+
+#section-09 .container h1 {
+     font-size: 2.25rem;
+     font-weight: 400;
+     margin: 1rem 0;
+     color: var(--md-white);
+}
+
+/*====== Section-10 ======*/
+
+
+#section-10 {
+     background-image: url(../img/photo-10-luca-bravo.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+#section-10 .container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+#section-10 .container .send {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#section-10 .container .send i {
+     margin: 0 1rem;
+     font-size: 10rem;
+     color: var(--md-white);
+     transition: all 1s;
+     cursor: pointer;
+}
+
+#section-10 .container .send i:hover, #section-10 .container .send i:focus  {
+     color: var(--md-active);
+     transform: rotatey(180deg);
+}
+
+#section-10 .d-p-foo-1, #section-10 .d-p-foo-2  {
+     color: var(--md-white);
+     font-size: 1.312rem;
+     font-weight: 400;
+}
+
+#section-10 .d-p-foo-1 {
+     text-align: left;
+}
+
+#section-10 .d-p-foo-2 {
+     text-align: right;
+}
+
+/* Media - Responsive */
+
+@media screen and (max-width: 500px) {
+
+    #section-01 .container header h1 {
+       font-size: 7rem;
+     }
+
+     .d-p {
+          font-size: 1rem;
+     }
+
+     /* Section-05 */
+
+     #section-04 {
+          background-position: center;
+     }
+
+     /* Section-05 */
+
+     #section-05 {
+          background-position: right;
+     }
+
+     /* Section-07 */
+
+     #section-07 {
+          background-position: center;
+     }
+
+     #section-07 .container h1 {
+          font-size: 1.5rem;
+     }
+
+     #section-07 .container .d-1 cite {
+          font-size: 1rem;
+     }
+     /* Section-08 */
+
+     #section-08 {
+          background-position: center;
+     }
+     
+
+     /* Section-09 */
+
+     #section-09 {
+          background-position: left;
+     }
+
+     /* Section 10 */
+
+     #section-10 .container .send i {
+          font-size: 6rem;
+     }
+
+     #section-10 .d-p-foo-1, #section-10 .d-p-foo-2  {
+     font-size: 1rem;
+     }
+
+}
