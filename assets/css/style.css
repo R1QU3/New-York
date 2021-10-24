@@ -313,7 +313,20 @@ cite {
           font-size: 1rem;
      }
 
-     /* Section-05 */
+     #section-02 .container h1,
+     #section-03 .container h1,
+     #section-04 .container h1,
+     #section-05 .container h1,
+     #section-06 .container h1,
+     #section-07 .container h1,
+     #section-08 .container h1,
+     #section-09 .container h1,
+     #section-10 .container h1
+     {
+          font-size: 1.5rem;
+     }
+
+     /* Section-04 */
 
      #section-04 {
           background-position: center;
@@ -331,10 +344,6 @@ cite {
           background-position: center;
      }
 
-     #section-07 .container h1 {
-          font-size: 1.5rem;
-     }
-
      #section-07 .container .d-1 cite {
           font-size: 1rem;
      }
@@ -344,7 +353,6 @@ cite {
           background-position: center;
      }
      
-
      /* Section-09 */
 
      #section-09 {
@@ -354,7 +362,7 @@ cite {
      /* Section 10 */
 
      #section-10 .container .send i {
-          font-size: 6rem;
+          font-size: 5rem;
      }
 
      #section-10 .d-p-foo-1, #section-10 .d-p-foo-2  {
