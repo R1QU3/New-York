@@ -33,31 +33,65 @@ cite {
      color: var(--md-white);
 }
 
+/* Clip */
+
+.clip {
+     animation: loading 5s linear infinite;
+}
+
+@keyframes loading {
+     0% {
+          transform: rotate(0deg);
+     }
+
+     100% {
+          transform: rotate(360deg);
+     }
+}
+
+/* Style */
+
 .section {
      width: 100%;
      height: 100vh;
      display: flex;
      flex-direction: column;
+     background-size: cover;
+     background-repeat: no-repeat;
 }
 
 .d-p {
      color: var(--md-white);
      font-size: 1.312rem;
      font-weight: 400;
-     text-align: right;
 }
 
-.d-1, .d-2 {
+.d-p p a {
+     text-decoration: none;
+     color: white;
+}
+
+.d-1,
+.d-2 {
      width: 100%;
+}
+
+.t-a-l {
+     text-align: left;
+}
+
+.t-a-r {
+     text-align: right;
 }
 
 /*====== container ======*/
 
-.container-small, .container {
+.container-small,
+.container {
      width: calc(100% - 5.12rem);
      margin-left: 2.57rem;
      margin-right: 2.57rem;
-/*      border: solid red 1px; */
+     /*      border: solid red 1px; */
 }
 
 .container-small {
@@ -74,7 +108,7 @@ cite {
 /*====== Section 01  #2f3142 ======*/
 
 #section-01 {
-     background-image: url(../img/Photo-01-Mike-C-Valdivia-Unsplash.png);
+     background-image: url(../img/01-Photo-Jonathan-Pease-Unsplash.jpg);
      background-size: cover;
      background-repeat: no-repeat;
 }
@@ -95,9 +129,7 @@ cite {
 /*====== Section-02 ======*/
 
 #section-02 {
-     background-image: url(../img/Photo-02-Andre-Benz.jpg.png);
-     background-size: cover;
-     background-repeat: no-repeat;
+     background-image: url(../img/02-Photo-Jonas-Elia-Unsplash.jpg);
 }
 
 #section-02 .container h1 {
@@ -110,9 +142,8 @@ cite {
 /*====== Section-03 ======*/
 
 #section-03 {
-     background-image: url(../img/Photo-03-Jeffrey-Blum.jpg.png);
-     background-size: cover;
-     background-repeat: no-repeat;
+     background-image: url(../img/03-Photo-Luca-Bravo-Unsplash.jpg);
+     background-position: bottom right;
 }
 
 #section-03 .container {
@@ -131,9 +162,8 @@ cite {
 /*====== Section-04 ======*/
 
 #section-04 {
-     background-image: url(../img/Photo-04-Anubhav-Saxena.jpg.png);
-     background-size: cover;
-     background-repeat: no-repeat;
+     background-image: url(../img/04-Photo-Nana-Nakazwe-Unsplash.jpg);
+     background-position: bottom;
 }
 
 #section-04 .container {
@@ -153,9 +183,7 @@ cite {
 
 
 #section-05 {
-     background-image: url(../img/Photo-05-Nik-Shuliahin.jpg.png);
-     background-size: cover;
-     background-repeat: no-repeat;
+     background-image: url(../img/05-Photo-Laurenz-Heymann-Unsplash.jpg);
 }
 
 #section-05 .container {
@@ -164,7 +192,8 @@ cite {
      justify-content: space-between;
 }
 
-#section-05 .container h1, #section-05 .container .d-1  {
+#section-05 .container h1,
+#section-05 .container .d-1 {
      font-size: 2.25rem;
      font-weight: 500;
      margin: 1rem 0;
@@ -174,9 +203,8 @@ cite {
 /*====== Section-06 ======*/
 
 #section-06 {
-     background-image: url(../img/Photo-06-Emiliano-Bar.jpg.png);
-     background-size: cover;
-     background-repeat: no-repeat;
+     background-image: url(../img/06-Photo-Jorik-Kleen-Unsplash.jpg);
+     background-position: center;
      display: flex;
      justify-content: space-between;
      flex-direction: column;
@@ -185,9 +213,7 @@ cite {
 /*====== Section-07 ======*/
 
 #section-07 {
-     background-image: url(../img/Photo-07-Jermaine.png);
-     background-size: cover;
-     background-repeat: no-repeat;
+     background-image: url(../img/Photo-07-Jermaine-Ee.png);
 }
 
 #section-07 .container {
@@ -208,10 +234,7 @@ cite {
 
 
 #section-08 {
-     background-image: url(../img/Photo-08-Ferdinand-Unsplash.png);
-     background-size: cover;
-     background-position: right center;
-     background-repeat: no-repeat;
+     background-image: url(../img/Photo-08-Josh-Connor-Unsplash.jpg);
 }
 
 #section-08 .container {
@@ -231,10 +254,8 @@ cite {
 /*====== Section-09 ======*/
 
 #section-09 {
-     background-image: url(../img/Photo-09-Colton-Unsplash.png);
-     background-size: cover;
-     background-position: right center;
-     background-repeat: no-repeat;
+     background-image: url(../img/Photo-09-Miltiadis-Fragkidis-Unsplash.jpg);
+     background-position: bottom right;
 }
 
 #section-09 .container {
@@ -282,31 +303,19 @@ cite {
      cursor: pointer;
 }
 
-#section-10 .container .send i:hover, #section-10 .container .send i:focus  {
+#section-10 .container .send i:hover,
+#section-10 .container .send i:focus {
      color: var(--md-active);
      transform: rotatey(180deg);
 }
 
-#section-10 .d-p-foo-1, #section-10 .d-p-foo-2  {
-     color: var(--md-white);
-     font-size: 1.312rem;
-     font-weight: 400;
-}
-
-#section-10 .d-p-foo-1 {
-     text-align: left;
-}
-
-#section-10 .d-p-foo-2 {
-     text-align: right;
-}
 
 /* Media - Responsive */
 
 @media screen and (max-width: 500px) {
 
-    #section-01 .container header h1 {
-       font-size: 7rem;
+     #section-01 .container header h1 {
+          font-size: 7rem;
      }
 
      .d-p {
@@ -321,8 +330,7 @@ cite {
      #section-07 .container h1,
      #section-08 .container h1,
      #section-09 .container h1,
-     #section-10 .container h1
-     {
+     #section-10 .container h1 {
           font-size: 1.5rem;
      }
 
@@ -347,12 +355,13 @@ cite {
      #section-07 .container .d-1 cite {
           font-size: 1rem;
      }
+
      /* Section-08 */
 
      #section-08 {
           background-position: center;
      }
-     
+
      /* Section-09 */
 
      #section-09 {
@@ -363,10 +372,6 @@ cite {
 
      #section-10 .container .send i {
           font-size: 5rem;
-     }
-
-     #section-10 .d-p-foo-1, #section-10 .d-p-foo-2  {
-     font-size: 1rem;
      }
 
 }
