@@ -17,4 +17,4 @@ Feel free to read some articles on [Medium](https://marcusboyds.medium.com/):zap
 
 # Github Pages
 
-Consider viewing this project on [GithubPages](https://r1qu3.github.io/New--York/)
+Consider viewing this project on [GithubPages](https://r1qu3.github.io/New-York/)
