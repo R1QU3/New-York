@@ -13,7 +13,7 @@ Consider more design like these at [Instagram](https://www.instagram.com/design.
 
 Did you like this design? See more on [Figma](https://www.figma.com/@marcusboyds):sparkles:
 
-Fique a vontade para ler alguns artigos on [Medium](https://marcusboyds.medium.com/):zap:
+Feel free to read some articles on [Medium](https://marcusboyds.medium.com/):zap:
 
 # Github Pages
 
